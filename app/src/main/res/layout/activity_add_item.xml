@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/itemtitle"
+        android:layout_width="match_parent"
+        android:theme="@style/MyTheme1"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/itemdesc"
+        android:layout_width="match_parent"
+        android:theme="@style/MyTheme1"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/addbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Item" />
+
+
+</LinearLayout>
